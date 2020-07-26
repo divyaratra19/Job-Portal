@@ -1,6 +1,15 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173456959-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173456959-1');
+</script>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title> Job Forum</title>
@@ -23,7 +32,12 @@
 	<link rel="stylesheet" href="assets/css/themify-icons.css">
 	<link rel="stylesheet" href="assets/css/slick.css">
 	<link rel="stylesheet" href="assets/css/nice-select.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- Slick Slider JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
 </head>
 <body>
     <!-- ? Preloader Start -->
@@ -54,15 +68,10 @@
                                 <ul id="navigation">
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="blog.html">Blog</a>
-                                        <ul class="submenu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog_details.html">Blog Details</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
-                                        </ul>
+                                    <li><a href="index.html#partners">Partners</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>          
@@ -89,14 +98,14 @@
                 <div class="single-slider">
                     <div class="slider-cap-wrapper">
                         <div class="hero__img">
-                            <img src="assets/img/logo/logo_official.png" alt=""  data-animation="fadeInRight" data-transition-duration="5s">
+                            <img src="assets/img/gallery/main.jpg" alt=""  data-animation="fadeInRight" data-transition-duration="5s">
                         </div>
                         <div class="hero__caption" >
                             <h1 data-animation="fadeInLeft" data-delay=".4s">Helping Nation Get <span>Back to Job</span></h1>
                             <p data-animation="fadeInLeft" data-delay=".6s">We are a strong community of 13,000+ Job Seekers & 500+ Recruiters.
                             </p>
                             <!-- Hero Btn -->
-                            <a href="#" class="btn"  data-animation="fadeInLeft" data-delay=".9s" >Explore About Us</a>
+                            <a href="about.html" class="btn"  data-animation="fadeInLeft" data-delay=".9s" >Explore About Us</a>
                         </div>
                     </div>
                 </div>
@@ -108,71 +117,18 @@
         </div>
         <!-- slider Area End-->
         <!--? About 1 Start-->
-        <section class="about-low-area section-padding40">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-xl-6 col-lg-6 col-md-10">
-                        <div class="about-caption mb-50">
-                            <!-- Section Tittle -->
-                            <div class="section-tittle mb-35">
-                                <span>About Us</span>
-                                <h2><span class="tittle-light">Register Yourself With Us As </span>Job Seeker or Job Giver </h2>
-                            </div>
-                            <p>COVID-19 Free Jobs Forum is a social initiative to help people losing or not getting jobs during the Corona Pandemic. We are collecting necessary details from Job Seekers & sharing it with HR/Recruiters who are hiring currently.
-                            
-                               
-                                </p>
-                        </div>
-                        <a href="about.html" class="btn about-btn">More About Us</a>
-                        <div class="row  pt-100">
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <div class="experience">
-                                    <span>13000+</span>
-                                    <p>Job Seekers</p>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <div class="experience">
-                                    <span>500+</span>
-                                    <p>Recruiters</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-6 col-md-9">
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="about-right-cap">
-                                    <div class="about-right-img">
-                                        <img src="assets/img/gallery/about1.png" alt="">
-                                    </div>
-                                    <p>The first time a community of HR's is coming together for mutual benefit without any financial interests involved.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-xl-12">
-                                <div class="about-right-cap about-right-cap2">
-                                    <div class="about-right-img">
-                                        <img src="assets/img/gallery/about2.png" alt="">
-                                    </div>
-                                    <p> Our Goal is <b>"Helping Nation Get Back To Work"</b></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         <!-- About  End-->
         <!--? Popular Items Start -->
-        <div class="popular-items section-padding40">
+        <div class="popular-items section-padding40" style="background:#FFF7F5;position: relative;">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <!-- Section Tittle -->
                         <div class="section-tittle mb-70">
                             <span>How we can help?</span>
-                            <h2>Just <span class="tittle-light">3 easy steps</span> to new opportunities </h2>
+                            <h2>Just <span class="tittle-light">3 easy steps</span> to new opportunities </h2><br>
+                            <h3><b>For Job Seekers</b></h3>
                         </div>
                     </div>
                 </div>
@@ -184,7 +140,7 @@
                                 <img src="assets/img/elements/search.png" height="100" alt="">
                             </div>
                             <div class="team-caption">
-                                <h3><a href="#"><br><br>1. Register for Job</a></h3>
+                                <h3><br><br>1. Register as a Job Seeker</h3>
                                 <span>Easy Peasy Registration form</span>
                                 <!-- Team social -->
                         
@@ -197,7 +153,7 @@
                                 <img src="assets/img/elements/target.png" height="100" alt="">
                             </div>
                             <div class="team-caption">
-                                <h3><a href="#"><br><br>2. Recruiter will hunt you</a></h3>
+                                <h3><br><br>2. Recruiter will hunt you</h3>
                                 <span>Hunting mode, sounds crazy</span>
                                 <!-- Team social -->
                         
@@ -210,8 +166,62 @@
                                 <img src="assets/img/elements/mail.png" height="100" alt="">
                             </div>
                             <div class="team-caption">
-                                <h3><a href="#"><br><br>3. Get the Job mail</a></h3>
+                                <h3><br><br>3. Directly Recruiter will get in touch with you via Call/Email</h3>
                                 <span>Direct into mail, never easy</span>
+                                <!-- Team social -->
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" align="center">
+                        <div class="single-team mb-30">
+                            <div class="team-img">
+                                <img src="assets/img/elements/scroll.png" height="100" alt="">
+                            </div>
+                            <div class="team-caption"><br><br>
+                                <a href="https://bit.ly/COVIDFreeJobsForum" class="btn about-btn" target="_blank">Start Now</a>
+                                <!-- Team social -->
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <h3><b>For HR's</b></h3>
+                <br><br>
+                <div class="row">
+                    
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" align="center">
+                        <div class="single-team mb-30">
+                            <div class="team-img">
+                                <img src="assets/img/elements/research.png" height="100" alt="">
+                            </div>
+                            <div class="team-caption">
+                                <h3><br><br>1. Register as Recruiter/JobGiver With Us</h3>
+                                <!-- Team social -->
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" align="center">
+                        <div class="single-team mb-30">
+                            <div class="team-img">
+                                <img src="assets/img/elements/right.png" height="100" alt="">
+                            </div>
+                            <div class="team-caption">
+                                <h3><br><br>2. Our Team Will Verify You</h3>
+                                <!-- Team social -->
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" align="center">
+                        <div class="single-team mb-30">
+                            <div class="team-img">
+                                <img src="assets/img/elements/share.png" height="100" alt="">
+                            </div>
+                            <div class="team-caption">
+                                <h3><br><br>3. Within 48hrs we will share Candidates Database with you</h3>
                                 <!-- Team social -->
                         
                             </div>
@@ -233,6 +243,31 @@
             </div>
         </div>
         <!-- Popular Items End -->
+        <div class="contact-animal-owner section-bg2" data-background="assets/img/gallery/section_bg03.png">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 col-md-11 col-sm-10">
+                        <div class="contact_text text-center">
+                            <div class="section_title text-center">
+                                <h3 style="font-size: 30px;">Subscribe our newsletter to get updates about latest news and courses</h3>
+                                <p> Till date, we are a strong community of 13,000+ Job Seekers & 500+ Recruiters.
+                                </p>
+                            </div>
+                            <div class="contact_btn d-flex align-items-center justify-content-center">
+                                <div class="footer-form">
+                                    <form method="post" action="newsletter.php">
+                                        <input type="email" name="email" placeholder="Enter Your Email" style="border-radius: 40px;border-color:#140C40;padding: 15px;color: #140C40;" required/><br /><br>
+                                        <button type="submit" name="submit" id="newsletter-submit" class="btn about-btn">
+                                            Send
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Testimonial Start -->
         <div class="testimonial-area testimonial-padding section-bg2" data-background="assets/img/gallery/section_bg01.png">
             <div class="container">
@@ -246,12 +281,12 @@
                                 <div class="testimonial-caption ">
                                     <div class="testimonial-top-cap">
                                         <img src="assets/img/gallery/testi-logo.png" alt="">
-                                        <p>“Ascend worked around the clock, connecting me with opportunities that ultimately led me to find an internship which I could not be more excited for.”</p>
+                                        <p>“I recently passed out from my final year with an offer letter in hand, due to this pandemic my offer letter got revoked then over LinkedIn Profile I found a google form called COVID-19 Free Jobs Forum, I filled that form. After someday I got a few calls from Recruiters & finally I got the job.”</p>
                                     </div>
                                     <!-- founder -->
                                     <div class="testimonial-founder  ">
                                         <div class="founder-img">
-                                            <span><strong>- Anderila Miller, </strong>  Creative Director</span>
+                                            <span><strong>- Anonymous </strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -262,12 +297,13 @@
                                 <div class="testimonial-caption ">
                                     <div class="testimonial-top-cap">
                                         <img src="assets/img/gallery/testi-logo.png" alt="">
-                                        <p>“Ascend worked around the clock, connecting me with opportunities that ultimately led me to find an internship which I could not be more excited for.”</p>
+                                        <p>“For our first set of hires we are targeting 4-5 people, and I feel we have already found at least that many strong candidates. The filtering of candidates is smooth. We will definitely continue to use this Database as we continue to grow.”</p>
                                     </div>
                                     <!-- founder -->
                                     <div class="testimonial-founder  ">
                                         <div class="founder-img">
-                                            <span><strong>- Anderila Miller, </strong>  Creative Director</span>
+                                            <span><strong>- Recruiter, </strong>E-commerce Platform
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -278,12 +314,89 @@
                                 <div class="testimonial-caption ">
                                     <div class="testimonial-top-cap">
                                         <img src="assets/img/gallery/testi-logo.png" alt="">
-                                        <p>“Ascend worked around the clock, connecting me with opportunities that ultimately led me to find an internship which I could not be more excited for.”</p>
+                                        <p>“I was searching for a job for a sales profile as in my organization no salary was given so I filled in for jobs at various places then one day I got a Google Form in Jobs & Career Facebook Group so I filled the form with my details. Same week I got a call saying that they got my details from COVID-19 Free Jobs Forum & then I discussed things with them and finally I am able to secure a decent job.”</p>
                                     </div>
                                     <!-- founder -->
                                     <div class="testimonial-founder  ">
                                         <div class="founder-img">
-                                            <span><strong>- Anderila Miller, </strong>  Creative Director</span>
+                                            <span><strong>- Arpit Agarwal</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-testimonial text-center">
+                                <!-- Testimonial Content -->
+                                <div class="testimonial-caption ">
+                                    <div class="testimonial-top-cap">
+                                        <img src="assets/img/gallery/testi-logo.png" alt="">
+                                        <p>“I was sacked along with 25 others of my team at a Delhi-based IT firm. I was given my termination letter by the HR without any explanation & told to leave. It was an emotionally tough time. I tried many job portals and then found the Covid-19 job forum. Initially, I didn’t expect to land a job through it but decided to give a try seeing its unique name and different approach. But after one month, I got a call from a company for an interview and managed to get the job even though at a much lower pay scale.”</p>
+                                    </div>
+                                    <!-- founder -->
+                                    <div class="testimonial-founder  ">
+                                        <div class="founder-img">
+                                            <span><strong>- Jitender</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-testimonial text-center">
+                                <!-- Testimonial Content -->
+                                <div class="testimonial-caption ">
+                                    <div class="testimonial-top-cap">
+                                        <img src="assets/img/gallery/testi-logo.png" alt="">
+                                        <p>“We want to hire some Engineers so I have posted over LinkedIn, from there Suyash approached me & told me about COVID-19 Free Jobs Forum initiative.  I am thankful to Suyash & his complete team as their database has us to close our hiring within a week.”</p>
+                                    </div>
+                                    <!-- founder -->
+                                    <div class="testimonial-founder  ">
+                                        <div class="founder-img">
+                                            <span><strong>- Senior HR</strong>, Internship Platform</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-testimonial text-center">
+                                <!-- Testimonial Content -->
+                                <div class="testimonial-caption ">
+                                    <div class="testimonial-top-cap">
+                                        <img src="assets/img/gallery/testi-logo.png" alt="">
+                                        <p>“I was on cloud nine when I received a call for an interview from a Delhi based firm just 10 days after I registered on COVID-19 Free Jobs Forum, one of my friends suggested me to do. Life came crashing down when on May 20, I was given the pink slip along without any prior notice or severance package by the firm where I was working as a data analyst.
+                                            Really thankful to the COVID-19 Free Jobs Forum Team for thinking about others in this tough situation. Keep up the good work.
+                                            ”</p>
+                                    </div>
+                                    <!-- founder -->
+                                    <div class="testimonial-founder  ">
+                                        <div class="founder-img">
+                                            <span><strong>- Arshad</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-testimonial text-center">
+                                <!-- Testimonial Content -->
+                                <div class="testimonial-caption ">
+                                    <div class="testimonial-top-cap">
+                                        <img src="assets/img/gallery/testi-logo.png" alt="">
+                                        <p>“COVID-19 Free Jobs Forum has a good profile of candidates; I am able to hire around eight candidates for tele-calling Profiles. From their database within minutes, I am able to filter the data & my team approached the respective candidates for hiring purposes. Would be great if they can bring some premium features like where they can go one-step ahead in calling & helping recruiters finalizing the candidate that would be a great help.”</p>
+                                    </div>
+                                    <!-- founder -->
+                                    <div class="testimonial-founder  ">
+                                        <div class="founder-img">
+                                            <span><strong>- Sales Head</strong>, EdTech Startup</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-testimonial text-center">
+                                <!-- Testimonial Content -->
+                                <div class="testimonial-caption ">
+                                    <div class="testimonial-top-cap">
+                                        <img src="assets/img/gallery/testi-logo.png" alt="">
+                                        <p>“Our Campus Placements got postponed with several firms putting their recruitment drives on hold. With uncertainty & a bleak year looming large, I got to know about the initiative when the Google Form landed in one of my college WhatsApp groups. I was looking out for anything and everything, starting from internships to data entry jobs to manage my earnings . After filling the form, I got a few calls from different firms and finally I landed a job as a graphic designer for a Agra based company.”</p>
+                                    </div>
+                                    <!-- founder -->
+                                    <div class="testimonial-founder  ">
+                                        <div class="founder-img">
+                                            <span><strong>- Shubham</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -294,6 +407,215 @@
             </div>
         </div>
         <!-- Testimonial End -->
+        
+        <!--? contact-animal-owner Start -->
+        <div class="contact-animal-owner section-bg2" data-background="assets/img/gallery/section_bg03.png" id="partners">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-11 col-sm-10">
+                        <div class="contact_text text-center">
+                            <div class="section_title text-center">
+                                <h3>Our Supporters</h3><br>
+                            </div>
+                            <div class="row">
+                    
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img">
+                                            <img src="assets/img/logo/coronatracker.png" height="100" alt="">
+                                        </div>
+                                        <div class="team-caption">
+                                            <h3><br><br>coronatracker.in</h3>
+                                            <span>Our COVID-19 Tracker</span>
+                                            <!-- Team social -->
+                                    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img">
+                                            <img src="assets/img/logo/artbandhu.png" height="100" alt="">
+                                        </div>
+                                        <div class="team-caption">
+                                            <h3><br><br>Creative Career Discovery Platform</h3>
+                                            <!-- Team social -->
+                                    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img">
+                                            <img src="assets/img/logo/representative.png" height="100" alt="">
+                                        </div>
+                                        <div class="team-caption">
+                                            <h3><br><br>The Representative</h3>
+                                            <span>Our Knowledge Partner</span>
+                                            <!-- Team social -->
+                                    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="contact_text text-center">
+                            <div class="section_title text-center">
+                                <h3><br>As Seen In</h3><br>
+                            </div>
+                            <div class="row">
+                    
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img"><br><br>
+                                            <a href="https://indianexpress.com/article/facebook-stories-of-strength-2020/start-up-fighters/this-duo-made-it-their-job-to-find-jobs-for-the-jobless-6505134/" target="_blank"><img src="assets/img/logo/theindian.png" height="30" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img">
+                                            <a href="https://yourstory.com/socialstory/2020/07/coronavirus-covid-19-free-jobs-forum-layoff" target="_blank"><img src="assets/img/logo/yourstory.png" height="100" alt=""></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img"><br><br>
+                                            <a href="https://entrackr.com/snippets/free-jobs-forum-launched-for-impacted-employees-due-to-covid-19/" target="_blank"><img src="assets/img/logo/entracker.png" height="30" alt=""></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img">
+                                            <a href="https://newsaurchai.com/covid19-free-job-forum-simplified-job-marketplace/" target="_blank"><img src="assets/img/logo/OBmaTEKz_400x400.jpg" height="100" alt=""></a>
+                                        </div>   
+                                    </div>
+                                </div>
+                               
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img"><br>
+                                            <a href="https://www.newsbytesapp.com/timeline/business/62956/295680/covid-19-free-jobs-forum-for-work-opportunities" target="_blank"><img src="assets/img/logo/logo_en.png" height="60" alt=""></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img">
+                                            <a href="https://startup-monk.com/feature-story-an-experiment-to-build-simplified-marketplace-for-job-market/" target="_blank"><img src="assets/img/logo/startup_monk.png" height="100" alt=""></a>
+                                        </div>   
+                                    </div>
+                                </div>
+                               
+                                
+                                
+                            </div>
+                            <div class="row">
+                                
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6 " align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img"><br>
+                                            <a href="https://hindi.oneindia.com/news/business/covid-19-free-jobs-forum-providing-jobs-to-unemployed-people-in-coronavirus-crisis-568852.html" target="_blank"><img src="assets/img/logo/hindi-oneindia-logo.svg" height="80" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img"><br><br>
+                                            <a href="https://www.eatmy.news/2020/06/failures-did-not-stop-me-from.html" target="_blank"><img src="assets/img/logo/EatMyNews_logo_300dpi-(2).png" height="40" alt=""></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img">
+                                            <a href="https://www.thetalentedindian.com/serving-the-community-in-this-time-of-the-pandemic/" target="_blank"><img src="assets/img/logo/tti.png" height="100" alt=""></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6 " align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img"><br>
+                                            <a href="https://blog.upes.ac.in/how-a-upes-alumnus-is-helping-people-find-jobs/" target="_blank"><img src="assets/img/logo/upes-logo.png" height="60" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img"><br>
+                                            <a href="http://www.startupurban.com/two-entrepreneurs-set-out-to-help-job-seekers-during-covid-19/" target="_blank"><img src="assets/img/logo/startup.png" height="60" alt=""></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img">
+                                            <a href="https://www.youthkiawaaz.com/2020/06/an-experiment-to-build-simplified-marketplace-for-job-market/#.Xu9Ax2_1s0w.whatsapp" target="_blank"><img src="assets/img/logo/yka-three-logo.png" height="100" alt=""></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                               
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img"><br><br>
+                                            <a href="https://m.dailyhunt.in/news/india/english/oneindia-epaper-oneindia/to%20help%20job%20seekers%20during%20covid19%20these%20two%20entrepreneurs%20take%20a%20fine%20and%20innovative%20initiative-newsid-n196913206?s=a&uu=0x0d5779d75057c1d4&ss=pd" target="_blank"><img src="assets/img/logo/dailyHunt_logo.svg" height="40" alt=""></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+  
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img"><br>
+                                            <a href="https://en.sangritimes.com/national/two-entrepreneurs-helping-nation-get-back-to-work" target="_blank"><img src="assets/img/logo/sangritimeswebnews.png" height="60" alt=""></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img"><br><br>
+                                            <a href="https://www.newindianexpress.com/thesundaystandard/2020/jul/19/laid-off-due-to-covid-19-heres-a-free-job-portal-that-might-help-you--2171633.html" target="_blank"><img src="assets/img/logo/thenew.jpg" height="30" alt=""></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-xs-6" align="center">
+                                    <div class="single-team mb-30">
+                                        <div class="team-img">
+                                            <a href="https://www.startupnews.fyi/post/two-entrepreneurs-launched-jobs-forum-for-the-impacted-employees-due-to-covid-19" target="_blank"><img src="assets/img/logo/startupnews.png" height="100" alt=""></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- contact-animal-owner End -->
+
         <!--? Team Start -->
         <div class="team-area section-padding40">
             <div class="container">
@@ -381,100 +703,55 @@
             </div>
         </div>
         <!-- Team End -->
-        <!--? contact-animal-owner Start -->
-        <div class="contact-animal-owner section-bg2" data-background="assets/img/gallery/section_bg03.png">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-7 col-md-11 col-sm-10">
-                        <div class="contact_text text-center">
-                            <div class="section_title text-center">
-                                <h3>Get started with our awesome service today</h3>
-                                <p> Till date, we are a strong community of 13,000+ Job Seekers & 500+ Recruiters.
-                                </p>
-                            </div>
-                            <div class="contact_btn d-flex align-items-center justify-content-center">
-                                <a href="contact.html" class="btn">Register Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- contact-animal-owner End -->
     </main>
     <footer>
         <!-- Footer Start-->
-        <div class="footer-area footer-padding">
+        <div class="footer-area footer-padding" id="contact">
             <div class="container">
                 <div class="row d-flex justify-content-between">
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                        <div class="single-footer-caption mb-50">
                          <div class="single-footer-caption mb-30">
                               <!-- logo -->
                              <div class="footer-logo mb-25">
-                                 <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
-                             </div>
-                             <div class="footer-tittle">
-                                 <div class="footer-pera">
-                                     <p>Productboard is the product management system that helps </p>
-                                </div>
-                             </div>
+                                <a href="index.html"><img src="assets/img/logo/logo_official_white.png" alt="" height="250"></a>
+                            </div>
                              <!-- social -->
                              <div class="footer-social">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                <a href="mailto:freejobsforum@gmail.com"><i class="fa fa-envelope"></i></a>
+                                <a href="https://www.linkedin.com/company/freejobforum"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com/freejobsforum"><i class="fab fa-twitter"></i></a>
                             </div>
                          </div>
                        </div>
                     </div>
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>About</h4>
+                                <h4>Links</h4>
                                 <ul>
-                                    <li><a href="#">Why choose us</a></li>
-                                    <li><a href="#"> Review</a></li>
-                                    <li><a href="#">Customers</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Carrier</a></li>
+                                    <li><a href="index.html"> Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="index.html#partners">Partners</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Services</h4>
-                                <ul>
-                                    <li><a href="#">Why choose us</a></li>
-                                    <li><a href="#"> Review</a></li>
-                                    <li><a href="#">Customers</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Carrier</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
-                        <div class="single-footer-caption mb-50">
+                    
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-caption mb-50">
                             <div class="footer-tittle mb-50">
                                 <h4>Newsletter</h4>
-                                <p>Subscribe our newsletter to get updates about our services</p>
+                                <p>Subscribe to our newsletter to get updates about latest news and courses</p>
                             </div>
                             <!-- Form -->
                             <div class="footer-form">
-                                <div id="mc_embed_signup">
-                                    <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part" novalidate="true">
-                                        <input type="email" name="EMAIL" id="newsletter-form-email" placeholder=" Email Address " class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'">
-                                        <div class="form-icon">
-                                            <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm">
-                                                Send
-                                            </button>
-                                        </div>
-                                        <div class="mt-10 info"></div>
-                                    </form>
-                                </div>
+                                <form method="post" action="newsletter.php">
+                                    <input type="email" name="email" placeholder="Enter Your Email" required/><br /><br>
+                                    <input type="submit" value="Submit" />
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -488,8 +765,8 @@
                      <div class="row d-flex align-items-center">
                          <div class="col-xl-12 ">
                              <div class="footer-copy-right text-center">
-                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                 <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/divya-ratra-97b445159/" target="_blank">Divya Ratra</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                              </div>
                          </div>
@@ -505,7 +782,30 @@
     </div>
 
     <!-- JS here -->
-
+    <script>
+        $(document).ready(function() {
+  $('.logo-carousel').slick({
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: true,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 2
+      }
+    }]
+  });
+});
+    </script>
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
     <!-- Jquery, Popper, Bootstrap -->
     <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
